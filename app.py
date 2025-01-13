@@ -4,6 +4,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
+
 # Load the trained model
 with open('home_price_model.pkl', 'rb') as f:
     model = pickle.load(f)
